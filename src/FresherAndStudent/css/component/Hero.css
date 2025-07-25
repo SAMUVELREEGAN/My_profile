@@ -1,0 +1,335 @@
+/* =========== WRAPPER ========== */
+.hero-wrapper1 {
+  width: 100%;
+  min-height: 100dvh; 
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-bg-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero-container1 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+    width: 100%;
+  max-width: 1280px;
+}
+
+.light-theme-bg {
+  background-image: url('../../assets/sun.jpg');
+}
+
+.dark-theme-bg {
+  background-image: url('../../assets/moon.jpg');
+}
+
+/* =========== MAIN CONTAINER ========== */
+/* .hero-container1 {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+  z-index: 2;
+} */
+
+/* ========== RIGHT SIDE: Image + Icons ========== */
+.hero-right1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.hero-pic1 {
+  width: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  z-index: 1;
+  mask-image: linear-gradient(to bottom, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 92%, transparent 100%);
+}
+
+.hero-left1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.left-icon {
+  font-size: 28px;
+  color: white;
+}
+
+/* ========== LEFT SIDE: Text & Name ========== */
+.hero-center1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  gap: 20px;
+}
+
+.hero-background-name {
+  font-size: clamp(120px, 7vw, 70px);
+  font-weight: bold;
+  color: var(--text-color, rgba(255, 255, 255, 0.1));
+  pointer-events: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+}
+
+.hero-letter {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: riseAndGlow 0.8s ease-out forwards, dartGlow 3s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes riseAndGlow {
+  to {
+    opacity: 0.1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dartGlow {
+  0%, 100% { opacity: 1; }
+  50% {
+    text-shadow: 0 0 5px var(--text-color);
+    opacity: 0.6;
+  }
+}
+
+.hero-name1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.wave-letter {
+  display: inline-block;
+  animation: waveJump 2s ease-in-out infinite;
+}
+
+@keyframes waveJump {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+.hero-mini1 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  z-index: 1;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.hire-btn {
+  width: 100px;
+  height: 40px;
+  background: green;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.learn-more {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 14px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.learn-more1 {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 14px;
+  background: var(--photo-color);
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* ========== TECH STRIP ========== */
+.hero_tech1 {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px 0;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 1px;
+  z-index: 2000;
+}
+
+.tech-marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.tech-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 20s linear infinite;
+  gap: 50px;
+}
+
+.tech-track span {
+  color: white;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.tech-track:hover {
+  animation-play-state: paused;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .hero-wrapper1 {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .hero-container1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 30px;
+  }
+
+  .hero-right1 {
+    order: 1;
+  }
+
+  .hero-center1 {
+    order: 2;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-name1 {
+    justify-content: center;
+    font-size: 1.8rem;
+  }
+
+  .hero-mini1 {
+    font-size: 1rem;
+  }
+
+  .learn-more,
+  .learn-more1 {
+    font-size: 0.9rem;
+  }
+
+  .hero-pic1 {
+    width: 240px;
+  }
+
+  .hero-background-name {
+    justify-content: center;
+    font-size: clamp(32px, 18vw, 48px);
+    top: 0;
+  }
+
+  .hero-left1 {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .icon-box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .left-icon {
+    font-size: 24px;
+  }
+
+  .hire-btn {
+    width: 90px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  .tech-track span {
+    font-size: 0.95rem;
+  }
+
+  .hero_tech1 {
+    position: relative;
+    top: -10px;
+  }
+}
