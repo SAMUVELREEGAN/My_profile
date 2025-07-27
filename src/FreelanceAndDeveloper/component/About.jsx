@@ -8,13 +8,13 @@ const About = () => {
   return (
     <div className="about-container">
 <div style={{margin:"15px 8%"}}>
-        <h1>About</h1>
-      <p>{about.description}</p>
+        <h1 data-aos="fade-up">About</h1>
+      <p data-aos="fade-up">{about.description}</p>
 </div>
 
       <div className="about-main-section">
         {/* Image Left */}
-        <div className="about_img">
+        <div className="about_img" data-aos="fade-up">
           <img src={about.aboutImg} alt="about" />
         </div>
 
@@ -26,9 +26,9 @@ const About = () => {
           {/* Left Cards */}
           <div className="about-side about-left">
             {about.leftCards.map((card, i) => (
-              <div className="about-card" key={i}>
+              <div className="about-card" key={i} data-aos="fade-up" data-aos-delay={i * 100}>
                 <i className={card.icon}></i>
-                <p>{card.title}</p>
+                <p >{card.title}</p>
               </div>
             ))}
           </div>
@@ -51,7 +51,7 @@ const About = () => {
   </div>
  <div style={{display:"flex" , flexWrap:"wrap"}}>
    <div className="glow-button-container" style={{float:"right"}}>
-    <a href={about.resume} download className="glow-button-card">
+    <a href={about.resume} download className="glow-button-card" >
       <h2>Download Resume</h2>
     </a>
   </div>

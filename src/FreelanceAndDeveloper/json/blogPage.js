@@ -1,54 +1,54 @@
-import { FaReact, FaServer, FaDatabase, FaCloud, FaPython } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiFlutter } from "react-icons/si";
+import { FaReact, FaServer, FaDatabase, FaCloud, FaTools } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiNodedotjs } from "react-icons/si";
 
 const blogPage = [
   {
     icon: FaReact,
-    name: "Building Modern Web Apps",
-    description: "Scalable React + Django project setup with clean architecture and production tips.",
-    link: "https://yourblog.com/react-django-setup"
-  },
-  {
-    icon: SiFlutter,
-    name: "Flutter Beginner Roadmap",
-    description: "Complete guide for beginners on mastering Flutter mobile app development step by step.",
-    link: "https://yourblog.com/flutter-roadmap"
+    name: "Modern Web App Architecture",
+    description: "Build scalable frontend apps using React with clean architecture and state management tips.",
+    link: "https://yourblog.com/react-web-architecture"
   },
   {
     icon: FaServer,
-    name: "Backend API Best Practices",
-    description: "Writing professional and secure REST APIs using Django REST Framework (DRF).",
-    link: "https://yourblog.com/backend-best-practices"
+    name: "Django REST API Best Practices",
+    description: "Secure, well-structured APIs using Django REST Framework for real-world projects.",
+    link: "https://yourblog.com/django-api-guide"
+  },
+  {
+    icon: SiNodedotjs,
+    name: "Node.js & Express API Essentials",
+    description: "RESTful API building guide with middleware, routing, and error handling in Express.js.",
+    link: "https://yourblog.com/express-node-api"
   },
   {
     icon: FaDatabase,
-    name: "Database Optimization Tips",
-    description: "MySQL & PostgreSQL database optimization tips for faster backend performance.",
-    link: "https://yourblog.com/database-tuning"
+    name: "MySQL vs MongoDB in Full Stack Apps",
+    description: "Choosing the right database for your backend—use cases, structure, and performance tips.",
+    link: "https://yourblog.com/mysql-vs-mongodb"
   },
   {
     icon: SiTailwindcss,
-    name: "UI Development with Tailwind CSS",
-    description: "How to build responsive and modern UI fast with Tailwind CSS and utility-first principles.",
-    link: "https://yourblog.com/tailwind-guide"
+    name: "Rapid UI Development with Tailwind",
+    description: "Build responsive, component-based UIs using Tailwind CSS and utility-first workflow.",
+    link: "https://yourblog.com/tailwind-responsive-ui"
   },
   {
-    icon: SiNextdotjs,
-    name: "Next.js for Production",
-    description: "Next.js SSR vs SSG, deployment options and SEO optimization explained in simple words.",
-    link: "https://yourblog.com/nextjs-production"
+    icon: SiMongodb,
+    name: "MongoDB Design Patterns",
+    description: "Optimize your document schema and queries for real-time apps using MongoDB.",
+    link: "https://yourblog.com/mongodb-design-patterns"
   },
   {
     icon: FaCloud,
-    name: "Deploy Django on Cloud",
-    description: "Deploying Django apps with Docker and Nginx on DigitalOcean and AWS.",
-    link: "https://yourblog.com/django-cloud-deploy"
+    name: "Deploying Full Stack Apps to Cloud",
+    description: "Deploy MERN and Django stacks on platforms like AWS, DigitalOcean, and Render with CI/CD.",
+    link: "https://yourblog.com/fullstack-cloud-deploy"
   },
   {
-    icon: FaPython,
-    name: "Python Automation Scripts",
-    description: "Useful Python automation scripts for web scraping, data manipulation and cron tasks.",
-    link: "https://yourblog.com/python-automation"
+    icon: FaTools,
+    name: "Modify & Customize Template Projects",
+    description: "Learn how to take existing templates or GitHub projects and modify them to match client or personal needs.",
+    link: "https://yourblog.com/modify-template-projects"
   }
 ];
 

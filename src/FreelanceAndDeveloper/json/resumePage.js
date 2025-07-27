@@ -1,47 +1,105 @@
 const resumePage = [
   {
     summary: {
-      name: "BRANDON JOHNSON",
-      description: "Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.",
-      location: "Portland par 127, Orlando, FL",
-      phone: "(123) 456-7891",
-      email: "alice.barkley@example.com",
+      name: "Samuvel Reegan",
+      description:
+        "Full Stack Developer with hands-on experience in building secure, scalable web applications using React, Django, Node.js, MongoDB, and more. Strong in both frontend and backend logic, passionate about building user-friendly and robust applications.",
+      location: "Tamil Nadu, Dindigul - 624206",
+      phone: "9345532741",
+      email: "samuelreegan372@gmail.com",
     },
+
     education: [
       {
-        degree: "MASTER OF FINE ARTS & GRAPHIC DESIGN",
-        years: "2015 - 2016",
-        institute: "Rochester Institute of Technology, Rochester, NY",
-        description: "Quid deserunt veniam. Et sed aliquam labore tempore sed suscipit veniam iusto autem sit. Et es vero voluptatum qui ut dignissimos deleniti rerada porsti samd markend."
-      },
-      {
-        degree: "BACHELOR OF FINE ARTS & GRAPHIC DESIGN",
-        years: "2010 - 2014",
-        institute: "Rochester Institute of Technology, Rochester, NY",
-        description: "Quia nobis neque est occaecati aut. Repudiandae et iusto quae reiciendis et quis. Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem. Earum molestiae consequatur neque soluta seder mart dia."
+        degree: "B.Sc. Computer Science",
+        years: "2021 - 2023",
+        institute: "Parvathy’s Arts And Science College",
+        description: "Completed graduation with a focus on computer science fundamentals, software development, and problem solving using modern technologies."
       }
     ],
+
+    skills: [
+      "Python (Django & Django REST Framework)",
+      "Node.js & Express.js",
+      "React.js",
+      "HTML & CSS",
+      "JavaScript",
+      "Bootstrap & MUI",
+      "MySQL & MongoDB",
+      "XML"
+    ],
+
+    certifications: [
+      {
+        title: "Python Full Stack Development",
+        institute: "Edex Tech – Madurai",
+        duration: "04-03-2024 to 15-11-2024"
+      }
+    ],
+
     experience: [
       {
-        title: "SENIOR GRAPHIC DESIGN SPECIALIST",
-        years: "2019 - Present",
-        company: "Experion, New York, NY",
+        title: "Full Stack Developer",
+        years: "Ongoing",
+        company: "Phonix, Madurai",
         points: [
-          "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
-          "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project",
-          "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-          "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"
+          "Collaborated with the team to deliver scalable and maintainable code.",
+          "Involved in API integration, UI design, and backend logic development."
         ]
       },
       {
-        title: "GRAPHIC DESIGN SPECIALIST",
-        years: "2017 - 2018",
-        company: "Stepping Stone Advertising, New York, NY",
+        title: "XML Error Processing Executive",
+        years: "6 Months",
+        company: "TNQ, Chennai",
         points: [
-          "Developed numerous marketing programs (logos, brochures, infographics, presentations, advertisements)",
-          "Managed up to 5 projects or tasks at a given time while under pressure",
-          "Recommended and consulted with clients on the most appropriate graphic design",
-          "Created 4+ design presentations and proposals a month for clients and account managers"
+          "Managed and resolved XML file structure errors in digital publishing.",
+          "Helped improve overall data quality and process accuracy.",
+          "Ensured proper tagging and content formatting standards."
+        ]
+      },
+      {
+        title: "Full Stack Developer (Intern)",
+        years: "6 Months",
+        company: "Edex Tech, Madurai",
+        points: [
+          "Worked on multiple real-world full-stack web applications.",
+          "Built features using React.js, Node.js, Express, and Django REST API.",
+          "Focused on both frontend functionality and backend efficiency."
+        ]
+      }
+    ],
+
+    projects: [
+      {
+        title: "Authentication & Integration Work",
+        points: [
+          "Implemented secure login using Google Authenticator and JWT token-based authentication.",
+          "Developed and integrated RESTful APIs for efficient frontend and backend communication.",
+          "Built fully responsive web interfaces using React.js, Bootstrap, and media queries.",
+          "Integrated and managed secure money transaction systems with backend validation.",
+          "Deployed applications on AWS EC2 using WinSCP and configured custom domains via GoDaddy.",
+          "Handled full DNS setup with A records and SSL certificate installation.",
+          "Integrated interactive 3D models into the website using Three.js."
+        ]
+      },
+      {
+        title: "Student Course Management",
+        technologies: ["React", "Django REST Framework", "MySQL"],
+        points: [
+          "Users can create, update, and delete courses, upload content, and manage enrollments.",
+          "Role-based access control using JWT for secure login (students/admins).",
+          "Dashboard view for students to track enrolled courses and completion status.",
+          "Efficient frontend-backend communication using Axios for API integration."
+        ]
+      },
+      {
+        title: "E-Commerce Platform",
+        technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+        points: [
+          "Built full-stack e-commerce platform using React Context API for state management.",
+          "Developed REST APIs for user authentication, product data, and order management.",
+          "Integrated backend endpoints for customer orders and inventory control.",
+          "Used MongoDB for efficient and scalable product/user data storage."
         ]
       }
     ]

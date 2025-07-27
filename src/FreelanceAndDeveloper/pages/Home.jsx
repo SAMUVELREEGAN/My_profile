@@ -9,8 +9,9 @@ import Project from "../../FreelanceAndDeveloper/component/Project"
 import Resume from "../../FreelanceAndDeveloper/component/Resume"
 import Skills from "../../FreelanceAndDeveloper/component/Skills"
 import TechStack from "../../FreelanceAndDeveloper/component/TechStack"
-import Testimonials from "../../FreelanceAndDeveloper/component/Testimonials"
+// import Testimonials from "../../FreelanceAndDeveloper/component/Testimonials"
 import WorkExperience from "../../FreelanceAndDeveloper/component/WorkExperience"
+import Answer from "../component/Answer"
 
 const Home = () => {
   return (
@@ -25,9 +26,11 @@ const Home = () => {
       <TechStack />
       <Resume />
       <Certifications />
+ 
       <WorkExperience />
+           <Answer />
       <Blog />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </div>
   )

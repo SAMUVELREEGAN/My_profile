@@ -1,13 +1,24 @@
+import { useEffect } from 'react';
 import './App.css';
-import Photographers from './Photographers/routes/Photographers';
 import FreelanceAndDeveloper from './FreelanceAndDeveloper/routes/FreelanceAndDeveloper';
-import FresherAndStudent from './FresherAndStudent/routes/FresherAndStudent';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
+
 function App() {
+  
+  useEffect(() => {
+  AOS.init({
+    duration: 900, // animation duration in ms
+    once: true,     // only animate once
+    offset: 120,    // offset (in px) from the original trigger point
+  });
+}, []);
   return (
     <div className="App">
-      {/* <FreelanceAndDeveloper /> */}
-      {/* <Photographers /> */}
-      <FresherAndStudent />
+      <FreelanceAndDeveloper />
     </div>
   );
 }

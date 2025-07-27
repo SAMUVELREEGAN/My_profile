@@ -35,7 +35,7 @@ const Skills = () => {
 
       <div className="skills-container" ref={ref}>
         {Myskilldata.map((skill, i) => (
-          <div className="skill-card" key={skill.id}>
+          <div className="skill-card" key={skill.id} data-aos="fade-up" data-aos-delay={i * 100}>
             <div className="skill-circle">
               <img src={skill.pic} alt={skill.name} className="skill-icon" />
               <div className="skill-percent">{animatedPercentages[i]}%</div>

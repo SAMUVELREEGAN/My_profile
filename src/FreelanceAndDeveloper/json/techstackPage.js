@@ -1,13 +1,21 @@
-import { FaReact, FaGitAlt, FaDocker, FaFigma } from "react-icons/fa";
-import {  SiDjango, SiFlutter, SiPostgresql, SiMongodb } from "react-icons/si";
-// import { SiTailwindcss, SiDjango, SiFlutter, SiPostgresql, SiMongodb, SiAdobeXd } from "react-icons/si";
+import { FaReact, FaGitAlt } from "react-icons/fa";
+import {
+  SiDjango,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiMongodb,
+  SiMysql,
+  SiNodedotjs,
+  SiExpress
+} from "react-icons/si";
 
 const techstackPage = [
   {
     id: 1,
     category: "Frontend",
     icon: <FaReact />,
-    tools: "React, Tailwind CSS",
+    tools: "React.js, Bootstrap, Media Queries",
   },
   {
     id: 2,
@@ -17,39 +25,46 @@ const techstackPage = [
   },
   {
     id: 3,
-    category: "Mobile",
-    icon: <SiFlutter />,
-    tools: "Flutter",
+    category: "Scripting",
+    icon: <SiJavascript />,
+    tools: "JavaScript (ES6+), Axios, JSON",
   },
-  {
-    id: 4,
-    category: "Database",
-    icon: <SiPostgresql />,
-    tools: "PostgreSQL, MongoDB",
-  },
+  // {
+  //   id: 4,
+  //   category: "HTML/CSS",
+  //   icon: <SiHtml5 />,
+  //   tools: "HTML5, CSS3, Custom Styling",
+  // },
+  
   {
     id: 5,
-    category: "DevOps",
-    icon: <FaGitAlt />,
-    tools: "Git, Docker",
+    category: "Node.js",
+    icon: <SiNodedotjs />,
+    tools: "Node.js, npm",
   },
   {
     id: 6,
-    category: "Design",
-    icon: <FaFigma />,
-    tools: "Figma, Adobe XD",
+    category: "Express.js",
+    icon: <SiExpress />,
+    tools: "Express.js (REST APIs)",
   },
   {
     id: 7,
-    category: "Docker",
-    icon: <FaDocker />,
-    tools: "Docker ,PostMan",
+    category: "Databases",
+    icon: <SiMongodb />,
+    tools: "MongoDB, Mongoose",
   },
   {
     id: 8,
-    category: "Mongodb",
-    icon: <SiMongodb />,
-    tools: "Mongodb , Postman",
+    category: "Relational DB",
+    icon: <SiMysql />,
+    tools: "MySQL, phpMyAdmin",
+  },
+  {
+    id: 9,
+    category: "Version Control",
+    icon: <FaGitAlt />,
+    tools: "Git, GitHub",
   },
 ];
 

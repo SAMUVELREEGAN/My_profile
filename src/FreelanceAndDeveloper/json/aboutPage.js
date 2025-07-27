@@ -1,25 +1,36 @@
-import about from '../assets/about.jpg';
+import about from '../assets/about.png';
 
 const aboutPage = [
   {
     leftCards: [
-      { icon: "fas fa-code", title: "Developer" },
-      { icon: "fas fa-paint-brush", title: "Designer" },
-      { icon: "fas fa-paint-brush", title: "Designer" },
+      { icon: "fas fa-code", title: "Full Stack Developer" },
+      { icon: "fas fa-plug", title: "API Integration" },
+      { icon: "fas fa-mobile-alt", title: "Cross-Platform" }, // changed from Responsive Design
     ],
     rightCards: [
-      { icon: "fas fa-rocket", title: "Fast Learner" },
-      { icon: "fas fa-users", title: "Team Player" },
-      { icon: "fas fa-users", title: "Team Player" },
+      { icon: "fas fa-bolt", title: "Problem Solver" },
+      { icon: "fas fa-users", title: "Collaborative Team Player" }, // more universal wording
+      { icon: "fas fa-lightbulb", title: "Adaptable Learner" }, // changed from Quick Learner
     ],
     description:
-      "I am a passionate front-end developer with experience in building responsive web applications using React, CSS, and JavaScript. I love clean design and functional UI",
+      "I’m a dedicated Full Stack Developer skilled in developing scalable, maintainable, and platform-agnostic applications. My experience with JavaScript, Python, Node.js, Django, and databases like MongoDB and MySQL allows me to work across the stack and adapt to new technologies quickly.",
+
     resume: "/resume.pdf",
-    additional:[{icon: "fas fa-code",name: "experience" , count:2}, {icon: "fas fa-paint-brush",name: "projects" , count:15}, {icon: "fas fa-rocket",name: "Hours Of Support" , count:12}, {icon: "fas fa-users",name: "Hard Workers" , count:21} ],
-    heading:"UI/UX Designer & Web Developer.",
-    heading_description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    heading_end:"Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore.",
-    aboutImg:about
+
+    additional: [
+      { icon: "fas fa-briefcase", name: "Experience", count: 2 },
+      { icon: "fas fa-folder-open", name: "Projects", count: 15 },
+      { icon: "fas fa-cogs", name: "Adaptable Skills", count: 12 }, // renamed from Technologies Used
+      { icon: "fas fa-globe", name: "Cloud Deployments", count: 5 }, // clearer industry wording
+    ],
+
+    heading: "Adaptable Full Stack Web Developer",
+    heading_description:
+      "I focus on building reliable, secure, and responsive applications. With a solid grasp of software principles, I can contribute to systems built on frameworks like Django, Express, or even learn platforms like Spring Boot as needed.",
+    heading_end:
+      "I enjoy taking on challenges, improving code quality, and learning new tools and frameworks to deliver impactful solutions across any tech stack.",
+
+    aboutImg: about,
   },
 ];
 

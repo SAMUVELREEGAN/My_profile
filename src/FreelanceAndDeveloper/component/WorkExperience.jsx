@@ -11,8 +11,8 @@ const WorkExperience = () => {
     <section className="experience">
       <h2 className="heading">Work Experience</h2>
       <div className="experience-container">
-        {experience.map((item) => (
-      <div className="experience-card">
+        {experience.map((item, i) => (
+      <div className="experience-card" data-aos="fade-up" data-aos-delay={i * 100}>
   <div className="logo-company">
     <img src={item.logo} alt={`${item.company} logo`} />
     <h3 className="company">{item.company}</h3>

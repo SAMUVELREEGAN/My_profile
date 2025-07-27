@@ -8,6 +8,7 @@ import blogPage from "../json/blogPage";
 import certificationPage from "../json/certificationPage";
 import workExperiencePage from "../json/workExperiencePage";
 import projectPage from "../json/projectPage";
+import Questionspage from '../json/Questions'
 
 export const MyContext = createContext();
 
@@ -23,7 +24,8 @@ const MyProvider = ({ children }) => {
         blogdata: blogPage,
         certification: certificationPage,
         experience:workExperiencePage,
-        projectdata:projectPage
+        projectdata:projectPage,
+        Questionsdata:Questionspage
       }}
     >
       {children}

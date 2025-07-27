@@ -4,10 +4,10 @@ const heroPage = [
   {
     line_1: "Hello There !",
     line_2: "I'm ",
-    hero_name: "Samuvel Reegan P",
+    hero_name: "SAMUVEL",
     role: ["Full Stack Developer" ,"Software Developer"],
     line_4:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, odit? Aspernatur quisquam fugiat assumenda sit laboriosam voluptas eum ipsum odio inventore at laudantium blanditiis nobis odit soluta nemo, corporis minima!",
+      "Lorem ipsum doa sit laboriosam voluptas eum ipsum odio inventore at laudantium blanditiis nobis odit soluta nemo, corporis minima!",
     persion_img: persion,
   }
 ];

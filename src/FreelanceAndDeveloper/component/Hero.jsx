@@ -5,6 +5,7 @@ import persion from "../assets/persion.png";
 import { MyContext } from "../context/MyContext";
 import NavSection from "./NavSection";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaLinkedin, FaWhatsapp, FaInstagram, FaGithub, FaRegSnowflake } from 'react-icons/fa';
 
 const Hero = () => {
   const vantaRef = useRef(null);
@@ -49,8 +50,8 @@ const Hero = () => {
       //  Select one effect here
       // const selectedEffect = window.VANTA.CLOUDS;
       // const selectedEffect = window.VANTA.RINGS;
-      // const selectedEffect = window.VANTA.DOTS;
-      const selectedEffect = window.VANTA.BIRDS;
+      const selectedEffect = window.VANTA.DOTS;
+      // const selectedEffect = window.VANTA.BIRDS;
 
       const theme = localStorage.getItem("theme");
 
@@ -112,24 +113,57 @@ const Hero = () => {
                 className="order-md-2 mb-4 mb-md-0"
                 style={{ textAlign: "center" }}
               >
-                <div className="hero_image_wrapper">
-                  <img src={persion} alt="Hero" className="hero_image" />
-                </div>
+              <div className="hero-right2">
+            <img src={persion} alt="profile" className="hero-pic2" />
+            <div className="hero-left2">
+       <a href="www.linkedin.com/in/samuvel-reegan-p-785a4a2ba" target="_blank" rel="noopener noreferrer">
+  <div className="icon-box2" data-aos="fade-up">
+    <FaLinkedin className="left-icon2" />
+  </div>
+</a>
+
+<a href="https://wa.me/9345532741" target="_blank" rel="noopener noreferrer">
+  <div className="icon-box2" data-aos="flip-up">
+    <FaWhatsapp className="left-icon2" />
+  </div>
+</a>
+
+<a href="https://www.instagram.com/hide_ree_s7?igsh=MTU3ZGg0NnQwbmoxZw==" target="_blank" rel="noopener noreferrer">
+  <div className="icon-box2" data-aos="fade-up">
+    <FaInstagram className="left-icon2" />
+  </div>
+</a>
+
+<a href="https://github.com/samuvelreegan" target="_blank" rel="noopener noreferrer">
+  <div className="icon-box2" data-aos="flip-up">
+    <FaGithub className="left-icon2" />
+  </div>
+</a>
+
+            </div>
+          </div>
               </Col>
 
               {/* Text section */}
               <Col xs={12} md={8} className="hero_text">
-                <p className="hero_line1">{hero.line_1}</p>
+                {/* <p className="hero_line1">{hero.line_1}</p> */}
                 <p className="hero_line2">
-                  {hero.line_2}{" "}
-                  <span className="hero_name">{hero.hero_name}</span>
+                  {/* {hero.line_2}{" "} */}
+                  {/* <span className="hero_name">{hero.hero_name}</span> */}
+                   <span className="hero-background-name2">
+              {hero.hero_name.split("").map((letter, idx) => (
+                <span key={idx} className="hero-letter" style={{ animationDelay: `${idx * 0.2}s` }}>
+                  {letter}
+                </span>
+              ))}
+            </span>
                 </p>
                 <p className="hero_line3 typing-effect">{displayText}</p>
 
                 <p className="hero_line4">{hero.line_4}</p>
                 <div className="holographic-container">
                   <div
-                    className="holographic-card"
+                    className="glow-button-card"
                     onClick={() => setIsOpen(true)}
                     style={{ cursor: "pointer" }}
                   >
