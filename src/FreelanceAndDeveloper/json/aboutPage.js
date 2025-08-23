@@ -15,7 +15,7 @@ const aboutPage = [
     description:
       "I’m a dedicated Full Stack Developer skilled in developing scalable, maintainable, and platform-agnostic applications. My experience with JavaScript, Python, Node.js, Django, and databases like MongoDB and MySQL allows me to work across the stack and adapt to new technologies quickly.",
 
-    resume: "/resume.pdf",
+    resume: "/SAM_Node&Django.pdf",
 
     additional: [
       { icon: "fas fa-briefcase", name: "Experience", count: 2 },
