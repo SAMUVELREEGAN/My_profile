@@ -1,6 +1,10 @@
 .experience {
   padding: 60px 20px;
   text-align: center;
+  background-image: url('../../assets/pro1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .heading {

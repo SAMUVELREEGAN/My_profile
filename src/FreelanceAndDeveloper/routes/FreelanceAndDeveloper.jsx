@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MyLayout from '../layout/MyLayout'
 import Home from '../pages/Home'
 import MyProvider from '../context/MyContext'
+import LearnHome from '../pages/LearnHome'
 
 const FreelanceAndDeveloper = () => {
   return (
@@ -13,6 +14,7 @@ const FreelanceAndDeveloper = () => {
             <Route path='/' element={<MyLayout />}>
             <Route path='/' element={<Home />} />
             {/* <Route path='/project' element={}/> */}
+            <Route path='/learn' element={<LearnHome />}/>
             </Route>
         </Routes>
         </BrowserRouter>

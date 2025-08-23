@@ -2,8 +2,8 @@ import { FaReact, FaGitAlt } from "react-icons/fa";
 import {
   SiDjango,
   SiJavascript,
-  SiHtml5,
-  SiCss3,
+  // SiHtml5,
+  // SiCss3,
   SiMongodb,
   SiMysql,
   SiNodedotjs,

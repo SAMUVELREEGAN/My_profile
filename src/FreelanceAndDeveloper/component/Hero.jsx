@@ -5,7 +5,9 @@ import persion from "../assets/persion.png";
 import { MyContext } from "../context/MyContext";
 import NavSection from "./NavSection";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { FaLinkedin, FaWhatsapp, FaInstagram, FaGithub, FaRegSnowflake } from 'react-icons/fa';
+import { FaLinkedin, FaWhatsapp, FaInstagram, FaGithub } from 'react-icons/fa';
+import { Link } from "react-router-dom";
+// import { color } from "three/tsl";
 
 const Hero = () => {
   const vantaRef = useRef(null);
@@ -50,8 +52,8 @@ const Hero = () => {
       //  Select one effect here
       // const selectedEffect = window.VANTA.CLOUDS;
       // const selectedEffect = window.VANTA.RINGS;
-      const selectedEffect = window.VANTA.DOTS;
-      // const selectedEffect = window.VANTA.BIRDS;
+      // const selectedEffect = window.VANTA.DOTS;
+      const selectedEffect = window.VANTA.BIRDS;
 
       const theme = localStorage.getItem("theme");
 
@@ -116,7 +118,7 @@ const Hero = () => {
               <div className="hero-right2">
             <img src={persion} alt="profile" className="hero-pic2" />
             <div className="hero-left2">
-       <a href="www.linkedin.com/in/samuvel-reegan-p-785a4a2ba" target="_blank" rel="noopener noreferrer">
+       <a href="//www.linkedin.com/in/samuvel-reegan-p-785a4a2ba" target="_blank" rel="noopener noreferrer">
   <div className="icon-box2" data-aos="fade-up">
     <FaLinkedin className="left-icon2" />
   </div>
@@ -169,7 +171,9 @@ const Hero = () => {
                   >
                     <h2>Hire Me</h2>
                   </div>
-                  <div className="mt-1 ms-3" style={{cursor:"pointer"}}>Learn more <FaArrowRightLong /></div>
+                  <div className="mt-1 ms-3" style={{cursor:"pointer"}} >
+                    <Link to='/learn' style={{color:"var(--text-color)"}}>Learn more <FaArrowRightLong /></Link>
+                  </div>
                 </div>
 
                 {/* Modal */}

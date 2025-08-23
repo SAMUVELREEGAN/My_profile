@@ -25,7 +25,7 @@ const GitContribution = () => {
             className="profile-img"
           />
           <p className="profile-description">
-            Passionate developer exploring full-stack web technologies. 📦 Building cool stuff on GitHub!
+            Passionate developer exploring full-stack web technologies. Building cool stuff on GitHub!
           </p>
           <a
             href={`https://github.com/${username}`}
@@ -35,6 +35,12 @@ const GitContribution = () => {
           >
             Visit GitHub Profile
           </a>
+
+          <div className="mt-3">
+            #1 <span className="pe-1"></span><a href="https://happyfood-author-samuvelreegan.netlify.app/">html-food-1st-project</a><br />
+            #2 <span className="pe-1"></span><a href="https://foodbootstrap-author-samuvelreegan.netlify.app/">html-food-2nd-project</a><br />
+            #3 <span className="pe-1"></span><a href="https://api-communication-protocol.netlify.app/">fake-api-protocol-ui </a>
+          </div>
         </div>
 
         {/* Right Section */}

@@ -5,19 +5,19 @@ const contactPage = [
     id: 1,
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "A108 Adam Street, New York, NY 535022",
+    description: "Dindigul-624206",
   },
   {
     id: 2,
     icon: <FaPhoneAlt />,
     title: "Call Us",
-    description: "+1 5589 55488 55",
+    description: "+91 9345532741",
   },
   {
     id: 3,
     icon: <FaEnvelope />,
     title: "Email Us",
-    description: "info@example.com",
+    description: "samuelreegan372@gmail.com",
   },
 ];
 

@@ -5,7 +5,7 @@
     gap: 30px;
     margin: 5% 0px;
     padding: 20px 0px;
-    background:url('../../assets/bg.jpg');
+    background:url('../../assets/pro1.jpg');
      background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -28,14 +28,14 @@
 
 .count-left i {
     font-size: 30px;
-    color: var(--third);
+    color: red;
 }
 
 .count-left h3 {
     font-size: 28px;
     margin: 0;
     font-weight: 700;
-    color: var(--text-color);
+    color:white;
 }
 
 .count-bottom {
@@ -49,13 +49,13 @@
 .count-title {
     font-size: 18px;
     margin: 0;
-    color: var(--text-color);
+    color: white;
 }
 
 .count-description {
     font-size: 16px;
     margin: 0;
-    color: var(--text-color);
+    color:white;
 }
 
 /* Responsive */

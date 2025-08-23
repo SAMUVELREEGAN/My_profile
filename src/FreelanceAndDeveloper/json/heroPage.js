@@ -1,14 +1,13 @@
-import persion from '../assets/persion.png';
+import person from '../assets/persion.png';
 
 const heroPage = [
   {
-    line_1: "Hello There !",
-    line_2: "I'm ",
-    hero_name: "SAMUVEL",
-    role: ["Full Stack Developer" ,"Software Developer"],
+    line_1: "Hi, I'm",
+    hero_name: "Samuvel",
+    role: ["Full Stack Developer", "Software Engineer"],
     line_4:
-      "Lorem ipsum doa sit laboriosam voluptas eum ipsum odio inventore at laudantium blanditiis nobis odit soluta nemo, corporis minima!",
-    persion_img: persion,
+      "I build scalable web applications and modern digital solutions. Passionate about clean code, performance, and delivering impactful user experiences.",
+    person_img: person,
   }
 ];
 

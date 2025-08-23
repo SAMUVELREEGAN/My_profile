@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { MyContext } from '../context/MyContext';
 import "../../FreelanceAndDeveloper/css/component/About.css";
 import { FaArrowRightLong } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const { about } = useContext(MyContext);
@@ -55,7 +56,8 @@ const About = () => {
       <h2>Download Resume</h2>
     </a>
   </div>
-  <div className="mt-1 ms-3" style={{cursor:"pointer"}}>Learn more <FaArrowRightLong /></div>
+  <div className="mt-1 ms-3" style={{cursor:"pointer"}}>
+   <Link to='/learn' style={{color:"var(--text-color)"}}>Learn more </Link><FaArrowRightLong /></div>
  </div>
 </div>
 

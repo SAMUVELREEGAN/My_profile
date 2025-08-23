@@ -3,9 +3,9 @@ import about from '../assets/about.png';
 const aboutPage = [
   {
     leftCards: [
-      { icon: "fas fa-code", title: "Full Stack Developer" },
+      { icon: "fas fa-code", title: "Frontend Developer" },
       { icon: "fas fa-plug", title: "API Integration" },
-      { icon: "fas fa-mobile-alt", title: "Cross-Platform" }, // changed from Responsive Design
+      { icon: "fas fa-mobile-alt", title: "Backend Developer" }, // changed from Responsive Design
     ],
     rightCards: [
       { icon: "fas fa-bolt", title: "Problem Solver" },
