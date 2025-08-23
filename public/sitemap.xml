@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-RENDER-URL/</loc>
+    <loc>https://my-profile-7c82.onrender.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOUR-RENDER-URL/about</loc>
+    <loc>https://my-profile-7c82.onrender.com/about</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-RENDER-URL/projects</loc>
+    <loc>https://my-profile-7c82.onrender.com/projects</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-RENDER-URL/contact</loc>
+    <loc>https://my-profile-7c82.onrender.com/learn</loc>
     <priority>0.7</priority>
   </url>
 </urlset>

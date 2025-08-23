@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-RENDER-URL/sitemap.xml
+Sitemap: https://my-profile-7c82.onrender.com/sitemap.xml
