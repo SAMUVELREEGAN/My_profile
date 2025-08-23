@@ -21,7 +21,7 @@ const GitContribution = () => {
         <div className="git-left">
           <img
             src={`https://github.com/${username}.png`}
-            alt="Profile"
+            alt="Samuvel Reegan"
             className="profile-img"
           />
           <p className="profile-description">

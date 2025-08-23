@@ -28,7 +28,7 @@ const NavSection = () => {
     <>
       <div className={`nav-section ${scrolled ? "scrolled" : ""} main-navbar`} >
         <div className="logo" onClick={() => navigate("/")}>
-          <img src={logo} alt="" width={"45px"}/>
+          <img src={logo} alt="Samuvel Reegan" width={"45px"}/>
           <span style={{position:"relative",top:"2px",right:"10px",fontSize:"2rem",cursor:"pointer"}}>am.</span>
         </div>
 

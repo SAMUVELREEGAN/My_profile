@@ -9,7 +9,7 @@ const LearnHero = () => {
       
       {/* Background Image */}
       <div className="hero-bg">
-        <img src={pic} alt="Hero" />
+        <img src={pic} alt="Samuvel Reegan" />
         <div className="overlay"></div>
       </div>
 

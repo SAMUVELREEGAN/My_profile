@@ -16,7 +16,7 @@ const About = () => {
       <div className="about-main-section">
         {/* Image Left */}
         <div className="about_img" data-aos="fade-up">
-          <img src={about.aboutImg} alt="about" />
+          <img src={about.aboutImg} alt="Samuvel Reegan" />
         </div>
 
         {/* Text Right */}

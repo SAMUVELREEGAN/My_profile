@@ -116,7 +116,7 @@ const Hero = () => {
                 style={{ textAlign: "center" }}
               >
               <div className="hero-right2">
-            <img src={persion} alt="profile" className="hero-pic2" />
+            <img src={persion} alt="Samuvel Reegan" className="hero-pic2" />
             <div className="hero-left2">
        <a href="//www.linkedin.com/in/samuvel-reegan-p-785a4a2ba" target="_blank" rel="noopener noreferrer">
   <div className="icon-box2" data-aos="fade-up">
