@@ -51,9 +51,9 @@ const Hero = () => {
     if (!vantaEffect && window.VANTA) {
       //  Select one effect here
       // const selectedEffect = window.VANTA.CLOUDS;
-      // const selectedEffect = window.VANTA.RINGS;
+      const selectedEffect = window.VANTA.RINGS;
       // const selectedEffect = window.VANTA.DOTS;
-      const selectedEffect = window.VANTA.BIRDS;
+      // const selectedEffect = window.VANTA.BIRDS;
 
       const theme = localStorage.getItem("theme");
 

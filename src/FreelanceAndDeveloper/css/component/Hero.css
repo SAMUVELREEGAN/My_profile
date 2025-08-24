@@ -173,7 +173,7 @@
 
   .hero-background-name2 {
     justify-content: center;
-    font-size: clamp(32px, 18vw, 48px);
+    font-size: clamp(32px, 18vw, 80px);
     top: 0;
   }
 
