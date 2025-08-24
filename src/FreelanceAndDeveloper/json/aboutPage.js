@@ -6,9 +6,9 @@ import { FaCode, FaPlug, FaMobileAlt } from "react-icons/fa";
 const aboutPage = [
   {
     leftCards: [
-    { icon: <FaCode />, title: "Frontend Developer" },
+    { icon: <FaCode />, title: "Frontend Development" },
     { icon: <FaPlug />, title: "API Integration" },
-    { icon: <FaMobileAlt />, title: "Backend Developer" }, // changed from Responsive Design
+    { icon: <FaMobileAlt />, title: "Backend Development" }, // changed from Responsive Design
     ],
     rightCards: [
       { icon: "fas fa-bolt", title: "Problem Solver" },
