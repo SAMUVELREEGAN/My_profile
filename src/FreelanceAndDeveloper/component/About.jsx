@@ -26,12 +26,13 @@ const About = () => {
 
           {/* Left Cards */}
           <div className="about-side about-left">
-            {about.leftCards.map((card, i) => (
-              <div className="about-card" key={i} data-aos="fade-up" data-aos-delay={i * 100}>
-                <i className={card.icon}></i>
-                <p >{card.title}</p>
-              </div>
-            ))}
+           {about.leftCards.map((card, i) => (
+  <div className="about-card" key={i} data-aos="fade-up" data-aos-delay={i * 100}>
+    <span className="icon">{card.icon}</span>
+    <p>{card.title}</p>
+  </div>
+))}
+
           </div>
 
           {/* Right Cards */}

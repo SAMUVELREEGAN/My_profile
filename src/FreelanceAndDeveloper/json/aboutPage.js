@@ -1,12 +1,14 @@
 import about from '../assets/about.png';
 import { FaBriefcase, FaFolderOpen, FaCogs, FaGlobe } from "react-icons/fa";
+import { FaCode, FaPlug, FaMobileAlt } from "react-icons/fa";
+
 
 const aboutPage = [
   {
     leftCards: [
-      { icon: "fas fa-code", title: "Frontend Developer" },
-      { icon: "fas fa-plug", title: "API Integration" },
-      { icon: "fas fa-mobile-alt", title: "Backend Developer" }, // changed from Responsive Design
+    { icon: <FaCode />, title: "Frontend Developer" },
+    { icon: <FaPlug />, title: "API Integration" },
+    { icon: <FaMobileAlt />, title: "Backend Developer" }, // changed from Responsive Design
     ],
     rightCards: [
       { icon: "fas fa-bolt", title: "Problem Solver" },
