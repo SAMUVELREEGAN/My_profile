@@ -1,4 +1,5 @@
 import about from '../assets/about.png';
+import { FaBriefcase, FaFolderOpen, FaCogs, FaGlobe } from "react-icons/fa";
 
 const aboutPage = [
   {
@@ -18,10 +19,10 @@ const aboutPage = [
     resume: "/SAM_Node&Django.pdf",
 
     additional: [
-      { icon: "fas fa-briefcase", name: "Experience", count: 2 },
-      { icon: "fas fa-folder-open", name: "Projects", count: 15 },
-      { icon: "fas fa-cogs", name: "Adaptable Skills", count: 12 }, // renamed from Technologies Used
-      { icon: "fas fa-globe", name: "Cloud Deployments", count: 5 }, // clearer industry wording
+      { icon: FaBriefcase, name: "Experience", count: 2 },
+      { icon: FaFolderOpen, name: "Projects", count: 15 },
+      { icon: FaCogs, name: "Adaptable Skills", count: 12 },
+      { icon: FaGlobe, name: "Cloud Deployments", count: 5 },
     ],
 
     heading: "Adaptable Full Stack Web Developer",

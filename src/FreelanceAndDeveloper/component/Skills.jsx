@@ -31,7 +31,7 @@ const Skills = () => {
   return (
     <Container>
         <h1 className="mt-5"style={{color:"var(--text-color)",textAlign:"center"}}>My Skills</h1>
-    <h3 style={{color:'var(--text-color)',textAlign:"center"}}>A Showcase of My Technical Strengths</h3>
+    <h3 style={{color:'var(--third)',textAlign:"center"}}>A Showcase of My Technical Strengths</h3>
 
       <div className="skills-container" ref={ref}>
         {Myskilldata.map((skill, i) => (

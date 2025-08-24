@@ -94,7 +94,7 @@ body{
   margin: 0;
   position: relative;
   z-index: 2;
-  color: var(--bg-color);
+  color: var(--sidebar-bg) !important;
   text-align: center;
 }
 

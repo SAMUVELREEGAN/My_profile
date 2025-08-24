@@ -39,7 +39,7 @@ const MyCreativity = () => {
     {about.additional.map((item, i) => (
         <div className="count-box" key={i}>
             <div className="count-left">
-                <i className={item.icon}></i>
+                {item.icon && <item.icon size={30} color="var(--third)" />} 
                 <h3>{counters[item.name] || 0}+</h3>
             </div>
             <div className="count-bottom">

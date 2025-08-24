@@ -56,7 +56,7 @@
 }
 
 .step-content {
-  background: var(--text-color);
+  background: var(--pro-bg);
   border-left: 4px solid #007bff;
   padding: 15px 20px;
   border-radius: 12px;
@@ -69,13 +69,13 @@
   margin: 0;
   font-size: 16px;
   font-weight: 500;
-  color:var(--sidebar-bg) !important;
+  color:var(--text-color) !important;
 }
 
 .step-content p {
   margin: 5px 0;
   font-size: 14px;
-  color:var(--sidebar-bg) !important;
+  color:var(--text-color) !important;
 }
 
 /* Responsive for Mobile */

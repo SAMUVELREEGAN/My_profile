@@ -16,9 +16,13 @@ const LearnHome = () => {
 
       <Resume />
           <Certifications />
-      <MyProject />
+     <div id='projects'>
+       <MyProject />
+     </div>
 
-    <Contact />
+   <div id='contact'>
+     <Contact />
+   </div>
     </div>
   )
 }

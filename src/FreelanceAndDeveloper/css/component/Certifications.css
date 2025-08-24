@@ -73,12 +73,12 @@
 .cert-description {
   font-size: 1rem;
   line-height: 1.5;
-  color: #555;
+  color: var(--text-color);
 }
 .cert-year {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #333;
+  color: var(--text-color);
 }
 .download-btn {
   padding: 10px 18px;
