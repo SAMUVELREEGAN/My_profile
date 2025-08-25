@@ -7,7 +7,6 @@ import NavSection from "./NavSection";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaLinkedin, FaWhatsapp, FaInstagram, FaGithub } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-// import { color } from "three/tsl";
 
 const Hero = () => {
   const vantaRef = useRef(null);
@@ -54,9 +53,10 @@ const Hero = () => {
       // const selectedEffect = window.VANTA.RINGS;
       // const selectedEffect = window.VANTA.DOTS;
       const selectedEffect = window.VANTA.BIRDS;
+      // const selectedEffect = window.VANTA.BIRDS; 
+      // const selectedEffect =null; 
 
       const theme = localStorage.getItem("theme");
-
       const backgroundColor = theme === "dark" ? 0x131111 : 0xffffff;
 
       if (selectedEffect === window.VANTA.CLOUDS) {
@@ -77,6 +77,30 @@ const Hero = () => {
             speed: 0.2,
           })
         );
+      } else if (selectedEffect === window.VANTA.BIRDS) {
+        //  birds count
+        setVantaEffect(
+          selectedEffect({
+            el: vantaRef.current,
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.0,
+            minWidth: 200.0,
+            scale: 1.0,
+            scaleMobile: 1.0,
+            backgroundColor: backgroundColor,
+            quantity: 2,   //   number of birds
+            birdSize: 1.5, // optional
+            wingSpan: 15   // optional
+          })
+        );
+      } else if (!selectedEffect) {
+        // normal background fallback
+        if (vantaRef.current) {
+          vantaRef.current.style.backgroundColor =
+            theme === "dark" ? "#131111" : "#ffffff";
+        }
       } else {
         setVantaEffect(
           selectedEffect({
@@ -148,10 +172,7 @@ const Hero = () => {
 
               {/* Text section */}
               <Col xs={12} md={8} className="hero_text">
-                {/* <p className="hero_line1">{hero.line_1}</p> */}
                 <p className="hero_line2">
-                  {/* {hero.line_2}{" "} */}
-                  {/* <span className="hero_name">{hero.hero_name}</span> */}
                    <span className="hero-background-name2">
               {hero.hero_name.split("").map((letter, idx) => (
                 <span key={idx} className="hero-letter" style={{ animationDelay: `${idx * 0.2}s` }}>
