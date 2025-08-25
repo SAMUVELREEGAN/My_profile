@@ -1,5 +1,5 @@
 import logo1 from '../assets/comp.jfif';
-import logo2 from '../assets/comp.png';
+import logo2 from '../assets/comp.jpg';
 
 const workExperiencePage = [
   {
