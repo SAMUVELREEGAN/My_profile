@@ -1,5 +1,6 @@
 // import img from '../assets/pro1.jpeg'
 import img1 from '../assets/pro2.jpeg'
+import img2 from '../assets/pro21.jpeg'
 import img3 from '../assets/pro3.jpeg'
 // import img4 from '../assets/pro4.jpeg'
 import img5 from '../assets/pro5.jpeg'
@@ -19,7 +20,7 @@ const projectPage = [
   {
     id: 12,
     title: "Real Estate (Mobile)",
-    image: img1,
+    image: img2,
     tech: ["Flutter", "MySQL"],
     link: "https://propertiesinfinite.com/",
     duration: "1 Month",
