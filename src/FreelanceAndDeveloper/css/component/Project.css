@@ -147,7 +147,7 @@
   }
 
   .image-wrapper1 {
-    height: 250px; /* smaller images */
+    height: 190px; /* smaller images */
   }
 
   .project-title1 {
@@ -160,6 +160,9 @@
   }
   .res-non{
     display: none;
+  }
+  .project-footer1{
+    padding: 5px;
   }
 }
 
