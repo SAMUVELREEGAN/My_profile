@@ -53,7 +53,7 @@ const projectPage = [
   },
   {
     id: 16,
-    title: "Profile",
+    title: "Furniture",
     image: img6,
     tech: ["React","Django","MySQL"],
     link: "https://my-profile-7c82.onrender.com/",
