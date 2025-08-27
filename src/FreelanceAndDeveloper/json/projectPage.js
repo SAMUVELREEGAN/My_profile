@@ -1,9 +1,10 @@
 // import img from '../assets/pro1.jpeg'
 import img1 from '../assets/pro2.jpeg'
 import img3 from '../assets/pro3.jpeg'
-import img4 from '../assets/pro4.jpeg'
+// import img4 from '../assets/pro4.jpeg'
 import img5 from '../assets/pro5.jpeg'
 import img6 from '../assets/pro7.jpeg'
+import img7 from '../assets/pro8.jpeg'
 
 const projectPage = [
   {
@@ -35,12 +36,12 @@ const projectPage = [
   },
   {
     id: 14,
-    title: "Food Demo Menu",
-    image: img4,
-    tech: ["HTML", "CSS"],
-    link: "https://happyfood-author-samuvelreegan.netlify.app/",
-    duration: "1 Day",
-    description: "A static food menu website designed with clean HTML and CSS."
+    title: "Flipkart UI",
+    image: img7,
+    tech: ["React"],
+    link: "https://flip-clv6.onrender.com",
+    duration: "2 Day",
+    description: "Flipkart-style UI prototype — a static, front-end–only site with no backend communication."
   },
   {
     id: 15,
