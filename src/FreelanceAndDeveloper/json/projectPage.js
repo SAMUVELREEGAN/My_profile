@@ -3,7 +3,7 @@ import img1 from '../assets/pro2.jpeg'
 import img3 from '../assets/pro3.jpeg'
 import img4 from '../assets/pro4.jpeg'
 import img5 from '../assets/pro5.jpeg'
-import img6 from '../assets/pro6.jpeg'
+import img6 from '../assets/pro7.jpeg'
 
 const projectPage = [
   {
@@ -55,10 +55,10 @@ const projectPage = [
     id: 16,
     title: "Profile",
     image: img6,
-    tech: ["React"],
-    link: "https://vimal-raj-2006.onrender.com/",
-    duration: "2 Days",
-    description: "A React-based portfolio website built for a client to showcase their skills and projects."
+    tech: ["React","Django","MySQL"],
+    link: "https://my-profile-7c82.onrender.com/",
+    duration: "15 Days",
+    description: "Web app for retail & resale pricing, enquiries, bundle orders, and automated emails."
   },
 ];
 
