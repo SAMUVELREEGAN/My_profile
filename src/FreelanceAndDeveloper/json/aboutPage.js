@@ -21,7 +21,7 @@ const aboutPage = [
     resume: "/SAM_Node&Django.pdf",
 
     additional: [
-      { icon: FaBriefcase, name: "Experience", count: 2 },
+      { icon: FaBriefcase, name: "Experience", count: 1 },
       { icon: FaFolderOpen, name: "Projects", count: 15 },
       { icon: FaCogs, name: "Adaptable Skills", count: 12 },
       { icon: FaGlobe, name: "Cloud Deployments", count: 5 },
