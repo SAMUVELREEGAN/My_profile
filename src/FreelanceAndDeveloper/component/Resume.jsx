@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div className="resume-section">
       <h1>Resume</h1>
-      <p className="intro">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem...</p>
+{/*       <p className="intro">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem...</p> */}
 
       <div className="resume-grid">
         {/* Left Column */}
