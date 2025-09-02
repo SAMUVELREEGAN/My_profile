@@ -85,7 +85,7 @@ const skillPage = [
      {
         id:11,
         pic:img11,
-        name:'mon',
+        name:'MongoDB',
         percentage:70,
         rangecolor:'green'
     },
