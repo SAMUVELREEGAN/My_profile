@@ -6,7 +6,7 @@ const certificationPage = {
       id: 1, 
       name: "Python Full Stack Developer", 
       image: cer, 
-      year: "2023",
+      year: "2024",
       description: "Successfully completed Python Full Stack Developer course, covering frontend, backend, and database technologies."
     },
   ],
