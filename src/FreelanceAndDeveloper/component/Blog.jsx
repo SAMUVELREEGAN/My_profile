@@ -41,7 +41,7 @@ const Blog = () => {
               <div className="blog-icon"><Icon size={50} color="#007bff" /></div>
               <h3 className="blog-title">{item.name}</h3>
               <p className="blog-desc">{item.description}</p>
-{/*               <a href={item.link} target="_blank" rel="noreferrer" className="blog-link">Read More</a> */}
+              <a href={item.link} target="_blank" rel="noreferrer" className="blog-link">Read More</a>
             </div>
           );
         })}
