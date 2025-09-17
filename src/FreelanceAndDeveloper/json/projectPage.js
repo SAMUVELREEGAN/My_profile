@@ -58,7 +58,7 @@ const projectPage = [
     title: "Furniture",
     image: img6,
     tech: ["React","Django","MySQL"],
-    link: "https://my-profile-7c82.onrender.com/",
+    link: "https://github.com/SAMUVELREEGAN/Retail-Resell-Pricing-portfolio",
     duration: "15 Days",
     description: "Web app for retail & resale pricing, enquiries, bundle orders, and automated emails."
   },
