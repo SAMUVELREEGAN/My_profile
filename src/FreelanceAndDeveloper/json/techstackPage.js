@@ -2,12 +2,14 @@ import { FaReact, FaGitAlt } from "react-icons/fa";
 import {
   SiDjango,
   SiJavascript,
-  // SiHtml5,
-  // SiCss3,
   SiMongodb,
   SiMysql,
   SiNodedotjs,
-  SiExpress
+  SiExpress,
+  SiDocker,
+  SiAmazonaws,
+  SiGitlab,
+  SiVite
 } from "react-icons/si";
 
 const techstackPage = [
@@ -15,56 +17,43 @@ const techstackPage = [
     id: 1,
     category: "Frontend",
     icon: <FaReact />,
-    tools: "React.js, Bootstrap, Media Queries",
+    tools: "React.js, React Hook Form, Three.js, Vite, Bootstrap, Material UI, SASS, Axios",
   },
   {
     id: 2,
     category: "Backend",
     icon: <SiDjango />,
-    tools: "Django, Django REST Framework",
+    tools: "Django, Django REST Framework (DRF), Node.js, Express.js (REST APIs)",
   },
   {
     id: 3,
     category: "Scripting",
     icon: <SiJavascript />,
-    tools: "JavaScript (ES6+), Axios, JSON",
+    tools: "JavaScript (ES6+), JSON, API Integration",
   },
-  // {
-  //   id: 4,
-  //   category: "HTML/CSS",
-  //   icon: <SiHtml5 />,
-  //   tools: "HTML5, CSS3, Custom Styling",
-  // },
-  
+  {
+    id: 4,
+    category: "Databases",
+    icon: <SiMongodb />,
+    tools: "MongoDB, MySQL, Mongoose, phpMyAdmin",
+  },
   {
     id: 5,
-    category: "Node.js",
-    icon: <SiNodedotjs />,
-    tools: "Node.js, npm",
+    category: "DevOps & Cloud",
+    icon: <SiDocker />,
+    tools: "Docker, CI/CD Pipelines, AWS (EC2), WinSCP",
   },
   {
     id: 6,
-    category: "Express.js",
-    icon: <SiExpress />,
-    tools: "Express.js (REST APIs)",
+    category: "Version Control",
+    icon: <FaGitAlt />,
+    tools: "Git, GitHub, GitLab",
   },
   {
     id: 7,
-    category: "Databases",
-    icon: <SiMongodb />,
-    tools: "MongoDB, Mongoose",
-  },
-  {
-    id: 8,
-    category: "Relational DB",
-    icon: <SiMysql />,
-    tools: "MySQL, phpMyAdmin",
-  },
-  {
-    id: 9,
-    category: "Version Control",
-    icon: <FaGitAlt />,
-    tools: "Git, GitHub",
+    category: "Development Tools",
+    icon: <SiVite />,
+    tools: "VS Code, npm",
   },
 ];
 
