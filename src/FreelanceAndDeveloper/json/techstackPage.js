@@ -35,7 +35,7 @@ const techstackPage = [
     id: 4,
     category: "Databases",
     icon: <SiMongodb />,
-    tools: "MongoDB, MySQL, Mongoose, phpMyAdmin",
+    tools: "MongoDB, MySQL, Mongoose",
   },
   {
     id: 5,
@@ -54,6 +54,12 @@ const techstackPage = [
     category: "Development Tools",
     icon: <SiVite />,
     tools: "VS Code, npm",
+  },
+  {
+    id: 8,
+    category: "Others",
+    icon: <SiExpress />,
+    tools: "RESTful APIs, Postman, API Documentation",
   },
 ];
 
