@@ -90,13 +90,13 @@ const skillPage = [
         percentage:90,
         rangecolor:'black'
     },
-     {
-        id:11,
-        pic:img11,
-        name:'MongoDB',
-        percentage:70,
-        rangecolor:'green'
-    },
+    //  {
+    //     id:11,
+    //     pic:img11,
+    //     name:'MongoDB',
+    //     percentage:70,
+    //     rangecolor:'green'
+    // },
     {
         id:12,
         pic:img12,
