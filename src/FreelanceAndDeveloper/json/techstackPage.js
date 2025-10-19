@@ -1,4 +1,4 @@
-import { FaReact, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaGitAlt, FaLock } from "react-icons/fa";
 import {
   SiDjango,
   SiJavascript,
@@ -35,7 +35,7 @@ const techstackPage = [
     id: 4,
     category: "Databases",
     icon: <SiMongodb />,
-    tools: "MongoDB, MySQL, Mongoose",
+    tools: "MongoDB, MySQL, Mongoose, phpMyAdmin",
   },
   {
     id: 5,
@@ -58,8 +58,8 @@ const techstackPage = [
   {
     id: 8,
     category: "Others",
-    icon: <SiExpress />,
-    tools: "RESTful APIs, Postman, API Documentation",
+    icon: <FaLock />,
+    tools: "RESTful APIs, Authentication, OAuth, Postman, API Documentation",
   },
 ];
 
