@@ -10,6 +10,7 @@ import img9 from '../assets/js.png'
 import img10 from '../assets/ex.png'
 import img11 from '../assets/mon.png'
 import img12 from '../assets/mui.png'
+import img13 from '../assets/docker.png'
 
 const skillPage = [
     {
@@ -61,6 +62,13 @@ const skillPage = [
         percentage:80,
         rangecolor:'green'
     },
+     {
+        id:13,
+        pic:img13,
+        name:'Docker',
+        percentage:73,
+        rangecolor:'blue'
+    },
     {
         id:8,
         pic:img8,
@@ -96,6 +104,7 @@ const skillPage = [
         percentage:90,
         rangecolor:'blue'
     },
+   
 ]
 
 export default skillPage;
