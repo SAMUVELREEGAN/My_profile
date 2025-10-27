@@ -51,7 +51,7 @@ const skillPage = [
     {
         id:6,
         pic:img6,
-        name:'My sql',
+        name:'MySQL',
         percentage:80,
         rangecolor:'blue'
     },
