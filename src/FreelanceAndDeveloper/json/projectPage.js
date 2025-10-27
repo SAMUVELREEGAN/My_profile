@@ -10,7 +10,7 @@ import img7 from '../assets/pro8.jpeg'
 const projectPage = [
   {
     id: 1,
-    title: "Real Estate-Scrum",
+    title: "Real Estate CRM",
     image: img1,
     tech: ["Laravel", "MySQL"],
     link: "https://propertiesinfinite.com/",
