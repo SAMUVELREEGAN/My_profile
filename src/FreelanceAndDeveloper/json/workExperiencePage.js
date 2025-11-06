@@ -8,18 +8,18 @@ const workExperiencePage = [
     company: "Edex Tech",
     location: "Madurai, India",
     logo: logo1,
-    role: "Full Stack Developer (Intern)",
+    role: "Full-Stack Developer (Intern)",
     description: "Worked on real-world full-stack applications using React.js, Node.js, and Django REST Framework. Developed REST APIs, implemented secure login with JWT, and deployed applications on AWS.",
     ctc: "Internship"
   },
   {
     id: 2,
-    year: "2024 - 2025 (6 Months)",
-    company: "TNQ Technologies",
-    location: "Chennai, India",
+    year: "2024 - 2025",
+    company: "Phoenix",
+    location: "Madurai, India",
     logo: logo2,
-    role: "XML Error Processing Executive",
-    description: "Handled and resolved XML file errors in digital publishing. Ensured accurate tagging and improved data quality in automated processing workflows.",
+    role: "Full-Stack Developer",
+    description: "Previously worked as a Full-Stack Developer, contributing to both template-based and custom-built web projects by developing responsive interfaces, implementing APIs, and optimizing overall performance.",
     ctc: "Fresher Role"
   }
 ];
