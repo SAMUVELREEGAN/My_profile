@@ -4,10 +4,12 @@ import { FiSun, FiMoon } from "react-icons/fi";
 import "../css/ThemeToggle.css";
 
 const ThemeToggle = () => {
-  const [theme, setTheme] = useState("dark");
+  // Set default theme to "light"
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "dark";
+    // Load saved theme or default to "light"
+    const savedTheme = localStorage.getItem("theme") || "light";
     setTheme(savedTheme);
     document.body.setAttribute("data-theme", savedTheme);
   }, []);
