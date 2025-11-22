@@ -22,7 +22,7 @@ const projectPage = [
     title: "Real Estate (Mobile)",
     image: img2,
     tech: ["Flutter", "MySQL"],
-    link: "https://propertiesinfinite.com/",
+    link: "https://play.google.com/store/apps/details?id=com.phoneix.pif&hl=en_IN",
     duration: "1 Month",
     description: "Cross-platform mobile app for property management, allowing users to browse, manage, and track real estate listings on the go."
   },
